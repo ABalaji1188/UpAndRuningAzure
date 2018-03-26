@@ -9,7 +9,7 @@
     @Scripts.Render("~/bundles/modernizr")
     @{
         var menucolor = "blue";
-        var envName = "Cloud";
+        var envName = "Cloud"; 
         menucolor = Microsoft.Azure.CloudConfigurationManager.GetSetting("MenuColor");
         envName = Microsoft.Azure.CloudConfigurationManager.GetSetting("EnvName");
         
